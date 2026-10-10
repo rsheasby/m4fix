@@ -130,7 +130,8 @@ engine starts:
   `m4_ai_global_rd.dll` when the engine loads it ([`fix/navfix.c`](fix/navfix.c)).
 
 The first two work by patching individual DLLs' import tables, so nothing
-outside those DLLs is affected.
+outside those DLLs is affected. **[docs/HOW-IT-WORKS.md](docs/HOW-IT-WORKS.md)** shows every
+change as a before/after diff: files, import-table slots and the exact bytes.
 
 ## Building
 
@@ -152,6 +153,7 @@ are in [`research/`](research/README.md).
 | `fix/` | the fix (CrashRpt proxy DLL), C, no C runtime |
 | `installer/` | Windows setup (`setup.c`) and Mac installer (`mac/`) |
 | `config/m4fix.ini` | default settings |
+| `docs/HOW-IT-WORKS.md` | every patch as a before/after diff |
 | `docs/TECHNICAL.md` | full analysis |
 | `research/` | tracer, profiler, benchmark driver, archive parser, results |
 

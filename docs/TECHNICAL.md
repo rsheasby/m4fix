@@ -1,5 +1,8 @@
 # Why Myst IV: Revelation navigates slowly — technical analysis
 
+For a compact before/after diff of every change m4fix makes, see
+[HOW-IT-WORKS.md](HOW-IT-WORKS.md).
+
 This documents how the navigation lag was taken apart, what causes it, and
 exactly what m4fix changes. Addresses are RVAs in the GOG v1.03 binaries
 (the build bundled in the Steam Mac release; `Myst4.exe` link time 2005-02-17).
