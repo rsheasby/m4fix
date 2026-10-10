@@ -1,0 +1,13 @@
+# local work area, toolchain outputs, Python env
+scratch/
+build/
+dist/
+.venv/
+__pycache__/
+*.pyc
+.DS_Store
+# link to the local game install
+game
+# research build outputs
+research/tracer/*.dll
+research/tracer/*.exe
